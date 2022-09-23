@@ -2613,7 +2613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc842ec6f6b353409355a89defd8a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialWalls: {fileID: 2100000, guid: 589e2934303fab447974ef12f7253ae7, type: 2}
+  materialWalls: {fileID: 2100000, guid: ad2e658941e9d064385ddad396332b47, type: 2}
   MaterialDetector: {fileID: 2100000, guid: f91587dcf9c32d8478e669973d6ea7e1, type: 2}
 --- !u!114 &1721305040
 MonoBehaviour:
@@ -2737,7 +2737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc842ec6f6b353409355a89defd8a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialWalls: {fileID: 2100000, guid: 589e2934303fab447974ef12f7253ae7, type: 2}
+  materialWalls: {fileID: 2100000, guid: ad2e658941e9d064385ddad396332b47, type: 2}
   MaterialDetector: {fileID: 2100000, guid: f91587dcf9c32d8478e669973d6ea7e1, type: 2}
 --- !u!114 &1782759512
 MonoBehaviour:
