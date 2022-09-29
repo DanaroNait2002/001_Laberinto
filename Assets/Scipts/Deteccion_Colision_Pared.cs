@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class Deteccion_Colision_Pared : MonoBehaviour
 {
+    //Material por defecto de las paredes
     [SerializeField]
     Material materialWalls;
-
+    //Material de las paredes al detectar al jugador
     [SerializeField]
     Material MaterialDetector;
 
+    //Contador para el color de la pared
     bool redWall = false;
 
     float redTime = 5f;
 
-    //funcion que se ejecuta por cada frame del juego
+    //Tiempo para que las paredes sean de otro color
     private void Update()
     {
         if (redWall == true)
@@ -25,11 +27,7 @@ public class Deteccion_Colision_Pared : MonoBehaviour
                 gameObject.GetComponent<MeshRenderer>().material = materialWalls;
                 redWall = false;
                 redTime = 5f;
-
-
             }
-
-
         }
     }
 
