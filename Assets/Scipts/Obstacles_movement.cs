@@ -14,6 +14,15 @@ public class Obstacles_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(pointA * Time.deltaTime * 1.5f);
+        if ( == )
+        {
+            transform.Translate(pointA * Time.deltaTime * velocidad);
+        }
+
+        if ( == )
+        {
+            transform.Translate(pointB * Time.deltaTime * velocidad);
+        }
     }
+            
 }
